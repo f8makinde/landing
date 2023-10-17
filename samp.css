@@ -1,0 +1,190 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   width: 70%;
+   max-width: 1100px;
+   margin: auto;
+   background-color: rgb(108, 108, 225);
+   /* height: 200px; */
+}
+
+.main-nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 60px;
+   padding: 20px 0;
+   font-size: 13px;
+   background-color: antiquewhite;
+}
+
+.main-nav .logo {
+   width: 60px;
+   margin-top: 30px;
+   border-radius: 20px;
+}
+
+.main-nav ul {
+   display: flex;
+   list-style: none;
+   font-size: larger;
+}
+
+.main-nav ul li {
+   padding: 0 10px;
+   margin: 15px;
+   margin-top: 50px;
+}
+
+.main-nav ul li a {
+   padding-bottom: 2px;
+}
+
+.main-nav .btn {
+   height: 40px;
+   padding: 15px;
+   text-align: center;
+   text-align: center;
+}
+
+/* content  */
+.content {
+   display: flex;
+   justify-content: space-around;
+   padding: 30px 0;
+   flex-direction: row;
+   margin-bottom: 50px;
+   background-color: antiquewhite;
+
+}
+
+.content .biz {
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+   margin-left: 10rem;
+}
+
+.biz p {
+   width: 90%;
+}
+
+.content .img {
+   width: 400px;
+   margin-top: 50px;
+}
+
+/* second content  */
+.second-content {
+   display: flex;
+   margin-bottom: 70px;
+   background-color: rgb(234, 240, 240);
+}
+
+.part {
+   margin: 20px;
+   margin-left: 2rem;
+}
+
+.sndImg {
+   margin-left: 10rem;
+   width: 400px;
+   height: 500px;
+}
+
+.trdImg {
+   margin-top: 20px;
+}
+
+/* third content  */
+
+.third-content {
+   background-color: blue;
+   display: flex;
+   margin-bottom: 20px;
+   padding: 35px 0;
+}
+
+.third-content .tex {
+   margin-left: 25%;
+}
+
+.tex input {
+   margin-right: 20px;
+}
+
+.tex h1 {
+   margin-top: 20px;
+}
+
+.circle {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}
+
+#cir {
+   width: 100px;
+   height: 100px;
+   background: red;
+   border-radius: 50%;
+   margin-top: 25px;
+   margin: 20px 20px 30px 30px;
+}
+
+/* fourth content  */
+.fourth-content {
+   text-align: center;
+   background-color: antiquewhite;
+}
+
+.sections {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 50px;
+   width: 70%;
+   margin-left: 10rem;
+}
+
+#fst {
+   width: 350px;
+   height: 150px;
+   background-color: black;
+   margin: 10px;
+}
+
+#snd {
+   width: 350px;
+   height: 200px;
+   background-color: blueviolet;
+   margin: 10px;
+}
+
+#trd {
+   width: 350px;
+   height: 150px;
+   background-color: brown;
+   margin: 10px;
+}
+
+/* fifth content  */
+
+.fifth-content {
+   margin-bottom: 200px;
+   margin-left: 50px;
+   padding: 35px 0;
+}
+
+.sub {
+   display: flex;
+   margin-left: 10rem;
+   margin-bottom: 50px;
+}
+
+.sub input {
+   margin-left: 20px;
+}
